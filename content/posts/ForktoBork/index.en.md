@@ -14,8 +14,8 @@ series: [how-to-doit]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: "borkbutton"
-featuredImagePreview: "borkbutton"
+featuredImage: "swedish-chef-bork.gif"
+featuredImagePreview: "swedish-chef-bork.gif"
 
 toc:
   enable: true
@@ -38,19 +38,16 @@ Mind you, it was getting late for me, after a full workday (perks of being in Th
 
 So of course I shared this in the chat.
 
-{{< image src="MicrosoftTeams-image.png" caption="Teams chat" height="1000" width="800">}}
+{{< image src="Microsoft-Teams image.png" caption="Chat excerpt from the Sharing is Caring session" height="500" width="300">}}
 
 
 David Warner started quoting Swedish Chef, and Hugo posted that he’d make a browser extension out of it. Of course I didn’t think he’d actually do it.
 
 After the training I did a post on Twitter how awesome this training was.
-Then this happened.
 
-{{< image src="hugobork.png" caption="Teams chat" height="1000" width="800">}}
+**Then this happened.**
 
-Find the thread here.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧡After geeking out last night with <a href="https://twitter.com/bernierh?ref_src=twsrc%5Etfw">@bernierh</a> (🫶) he graciously shared how to change the Fork! button in Github to Bork! So, without further ado, the most important blogpost of the year 🤓 <a href="https://t.co/L8YpGUg7Zd">https://t.co/L8YpGUg7Zd</a> <a href="https://twitter.com/hashtag/borkborkbork?src=hash&amp;ref_src=twsrc%5Etfw">#borkborkbork</a> <a href="https://twitter.com/hashtag/extension?src=hash&amp;ref_src=twsrc%5Etfw">#extension</a> <a href="https://twitter.com/hashtag/github?src=hash&amp;ref_src=twsrc%5Etfw">#github</a> <a href="https://twitter.com/hashtag/geek?src=hash&amp;ref_src=twsrc%5Etfw">#geek</a> <a href="https://twitter.com/hashtag/sharingiscaring?src=hash&amp;ref_src=twsrc%5Etfw">#sharingiscaring</a> <a href="https://t.co/sVK0Z0D87h">pic.twitter.com/sVK0Z0D87h</a></p>&mdash; Nathalie Leenders (@NathLeenders) <a href="https://twitter.com/NathLeenders/status/1613818231600340993?ref_src=twsrc%5Etfw">January 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="NathLeenders" id="1613818231600340993" >}}
 
 So, without further ado, with full credit to Hugo Bernier for being awesome, since we were both geeking out over this, he shared with me how he did this and it’s sooo easy!
 
@@ -76,6 +73,6 @@ position: absolute;
   background-color: yellow;
 }`
 
-And there you have it; the button now says Bork! Enjoy
+## And there you have it; the button now says Bork! Enjoy ##
 
 {{< image src="borkbutton.png" caption="Bork!" height="1000" width="800">}}
