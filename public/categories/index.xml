@@ -1,0 +1,56 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Power Platform Tips &amp; Tricks</title>
+        <link>http://example.org/categories/</link>
+        <description>Categories - Category - Power Platform Tips &amp; Tricks</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 May 2023 14:27:14 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Microsoft Exams</title>
+    <link>http://example.org/categories/microsoft-exams/</link>
+    <pubDate>Mon, 15 May 2023 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/microsoft-exams/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Canvas Apps</title>
+    <link>http://example.org/categories/canvas-apps/</link>
+    <pubDate>Wed, 12 Apr 2023 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/canvas-apps/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>MSWord</title>
+    <link>http://example.org/categories/msword/</link>
+    <pubDate>Fri, 07 Apr 2023 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/msword/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Power Automate</title>
+    <link>http://example.org/categories/power-automate/</link>
+    <pubDate>Wed, 29 Mar 2023 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/power-automate/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Powerapps</title>
+    <link>http://example.org/categories/powerapps/</link>
+    <pubDate>Thu, 16 Mar 2023 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/powerapps/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Github</title>
+    <link>http://example.org/categories/github/</link>
+    <pubDate>Fri, 13 Jan 2023 14:27:14 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/github/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Documentation</title>
+    <link>http://example.org/categories/documentation/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/documentation/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

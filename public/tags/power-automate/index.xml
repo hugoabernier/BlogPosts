@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Power Automate - Tag - Power Platform Tips &amp; Tricks</title>
+        <link>http://example.org/tags/power-automate/</link>
+        <description>Power Automate - Tag - Power Platform Tips &amp; Tricks</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Mar 2023 14:27:14 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/power-automate/" rel="self" type="application/rss+xml" /><item>
+    <title>Another quick tip! Removing blank items in a compose</title>
+    <link>http://example.org/posts/removing-blanks-powerautomate/</link>
+    <pubDate>Wed, 29 Mar 2023 14:27:14 &#43;0000</pubDate><author>
+                        <name>Nathalie</name><uri>https://nathalieleenders.com</uri><email>info@nathalieleenders.com</email></author><guid>http://example.org/posts/removing-blanks-powerautomate/</guid>
+    <description><![CDATA[This is a followup post for my earlier blog, Combine data from multiple apply to each into a single output file (Variables and compose)
+Cat Sneider helped me tremendously on this one, full credit to her! Find her blog here
+Thank youFollowing these steps, results in some empty values also being added.
+For example, if there is an empty entry, but the item exists and you specify that item it will show up.]]></description>
+</item><item>
+    <title>How to get submitted values from your Choices/optionset column in Dataverse</title>
+    <link>http://example.org/posts/collectvalues-choiceoptionsets/</link>
+    <pubDate>Tue, 07 Mar 2023 14:27:14 &#43;0000</pubDate><author>
+                        <name>Nathalie</name><uri>https://nathalieleenders.com</uri><email>info@nathalieleenders.com</email></author><guid>http://example.org/posts/collectvalues-choiceoptionsets/</guid>
+    <description><![CDATA[Ever noticed that when you select your columnname, in the dynamic data, it doesnt give you the result and it stays blank? I’d like to explain how you can get the value for your dropdown.
+There is a difference between the display name, and the actual name of that value. Dataverse often uses @OData.Community.Display.V1.FormattedValue instead of the previous new_value_label.
+In your Power automate flow, either run the flow and check the body, or add a Compose step after your Get Items/Update Item etc.]]></description>
+</item></channel>
+</rss>

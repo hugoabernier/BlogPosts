@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>How to repeat words in Microsoft Word (XML Mappings) - Power Platform Tips &amp; Tricks</title><meta name="Description" content=""><meta property="og:title" content="How to repeat words in Microsoft Word (XML Mappings)" />
+<meta property="og:description" content="I know I usually only do Power Platform, but Microsoft Word is bound to be in your project needs someday, or combining with Power Automate, so I figured why not?
+Ever had the request to have certain words repeated, lets say in a header or footer? It can be anything, a date, name, product title, Business Unit etc etc.
+This can be achieved using XML Mapping in Microsoft Word. To get to the XML mapping, you must first have the Developer Tab activated." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/repeatwordsinmsword/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-04T14:27:14+00:00" />
+<meta property="article:modified_time" content="2023-04-04T14:27:14+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to repeat words in Microsoft Word (XML Mappings)"/>
+<meta name="twitter:description" content="I know I usually only do Power Platform, but Microsoft Word is bound to be in your project needs someday, or combining with Power Automate, so I figured why not?
+Ever had the request to have certain words repeated, lets say in a header or footer? It can be anything, a date, name, product title, Business Unit etc etc.
+This can be achieved using XML Mapping in Microsoft Word. To get to the XML mapping, you must first have the Developer Tab activated."/>
+<meta name="application-name" content="Power Platform Tips &amp; Tricks">
+<meta name="apple-mobile-web-app-title" content="Power Platform Tips &amp; Tricks">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://example.org/posts/repeatwordsinmsword/" /><link rel="prev" href="http://example.org/posts/removing-blanks-powerautomate/" /><link rel="next" href="http://example.org/posts/bpf-automation/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to repeat words in Microsoft Word (XML Mappings)",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/repeatwordsinmsword\/"
+        },"genre": "posts","keywords": "MSWord, XMLMappings","wordcount":  375 ,
+        "url": "http:\/\/example.org\/posts\/repeatwordsinmsword\/","datePublished": "2023-04-04T14:27:14+00:00","dateModified": "2023-04-04T14:27:14+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"authors": [{
+                        "@type": "Person",
+                        "name": "nathalieleenders"                    
+                    }],"description": ""
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="" header-mobile=""><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Power Platform Tips &amp; Tricks">Power Platform Tips &amp; Tricks</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Power Platform Tips &amp; Tricks">Power Platform Tips &amp; Tricks</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">How to repeat words in Microsoft Word (XML Mappings)</h1><h2 class="single-subtitle">Use XML Mappings in the Header or Footer</h2><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='http://example.org/authors/nathalieleenders'>Nathalie</a></span>
+                </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">category <a href="/categories/msword/"><i class="far fa-folder fa-fw"></i>MSWord</a></span>&nbsp;<span class="post-category">and</span>&nbsp;<span class="post-series">series <a href="/series/how-to-doit/"><i class="far fa-list-alt fa-fw"></i>How to DoIt</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-04-04">2023-04-04</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-04-04">2023-04-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;375 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png"
+        srcset="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png, /posts/repeatwordsinmsword/xmlmapping%20screenshot1.png 1.5x, /posts/repeatwordsinmsword/xmlmapping%20screenshot1.png 2x"
+        sizes="auto"
+        alt="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png"
+        title="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png" height="166"   width="887" ></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>I know I usually only do Power Platform, but Microsoft Word is bound to be in your project needs someday, or combining with Power Automate, so I figured why not?</p>
+<p>Ever had the request to have certain words repeated, lets say in a header or footer?
+It can be anything, a date, name, product title, Business Unit etc etc.</p>
+<p>This can be achieved using XML Mapping in Microsoft Word.
+To get to the XML mapping, you must first have the Developer Tab activated.</p>
+<ul>
+<li>Go to File</li>
+<li>Options</li>
+<li>Customize this ribbon</li>
+<li>Enable the Developer (check the checkbox)</li>
+<li>Save</li>
+</ul>
+<figure><a class="lightgallery" href="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png" title="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png" data-thumbnail="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png" data-sub-html="<h2>Developer tab</h2>">
+        <img
+            
+            loading="lazy"
+            src="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png"
+            srcset="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png, /posts/repeatwordsinmsword/xmlmapping%20screenshot1.png 1.5x, /posts/repeatwordsinmsword/xmlmapping%20screenshot1.png 2x"
+            sizes="auto"
+            alt="/posts/repeatwordsinmsword/xmlmapping%20screenshot1.png" height="600"  width="800" >
+    </a><figcaption class="image-caption">Developer tab</figcaption>
+    </figure>
+<p>Now you’re able to open the Developer Tab, and in the middle you’ll find the XML Mapping.
+Here is where the fun starts.</p>
+<p>XML Mapping, as the name says, uses an XML file to map the words.</p>
+<ul>
+<li>Open NotePad, and copy/paste the following:</li>
+</ul>
+<p><code>&lt;?xml version=”1.0” encoding=”UTF-8” standalone=”no”?&gt; &lt;DemoXMLNode xmlns=”http://CustomDemoXML.htm”&gt; &lt;Name&gt;&lt;/Name&gt; &lt;Insertnewasyouwant&gt;&lt;/Insertnewasyouwant&gt; &lt;/DemoXMLNode&gt;</code></p>
+<p>(I got this code off of someones blog a while ago, if I remember who it was I will post it here, I promise)</p>
+<ul>
+<li>Use the &lt;&gt; and &lt;/&gt; to map your XML names.</li>
+<li>Save as .XML file.</li>
+<li>Now in Microsoft Word, on the XML Mapping pane, go to the dropdown, and click on (Add a new Part…)</li>
+<li>Select your file.</li>
+<li>It will show up as the following:</li>
+</ul>
+<figure><a class="lightgallery" href="/posts/repeatwordsinmsword/xmlmapping%20screenshot2.png" title="/posts/repeatwordsinmsword/xmlmapping%20screenshot2.png" data-thumbnail="/posts/repeatwordsinmsword/xmlmapping%20screenshot2.png" data-sub-html="<h2>Breaks start and End</h2>">
+        <img
+            
+            loading="lazy"
+            src="/posts/repeatwordsinmsword/xmlmapping%20screenshot2.png"
+            srcset="/posts/repeatwordsinmsword/xmlmapping%20screenshot2.png, /posts/repeatwordsinmsword/xmlmapping%20screenshot2.png 1.5x, /posts/repeatwordsinmsword/xmlmapping%20screenshot2.png 2x"
+            sizes="auto"
+            alt="/posts/repeatwordsinmsword/xmlmapping%20screenshot2.png" height="600"  width="800" >
+    </a><figcaption class="image-caption">Breaks start and End</figcaption>
+    </figure>
+<p>I’ve used Word1 and Word2, but you can of course specify your own naming in the XML.</p>
+<p>Next step is binding this to something on your form or document.</p>
+<ul>
+<li>Make sure you’re using a content control (under the developer tab, next to the XML Mapping, you’ll find the Rich Text, Plain Text, Dates, Checkboxes etc.)</li>
+<li>Insert a Text content control</li>
+<li>Place the text in this content control</li>
+<li>Select in your Word file what you want to have repeated (The content control)</li>
+<li>Right click on Word1</li>
+<li>Select Map to selected Content control</li>
+</ul>
+<figure><a class="lightgallery" href="/posts/repeatwordsinmsword/xmlmapping%20screenshot3.png" title="/posts/repeatwordsinmsword/xmlmapping%20screenshot3.png" data-thumbnail="/posts/repeatwordsinmsword/xmlmapping%20screenshot3.png" data-sub-html="<h2>XML Mappings</h2>">
+        <img
+            
+            loading="lazy"
+            src="/posts/repeatwordsinmsword/xmlmapping%20screenshot3.png"
+            srcset="/posts/repeatwordsinmsword/xmlmapping%20screenshot3.png, /posts/repeatwordsinmsword/xmlmapping%20screenshot3.png 1.5x, /posts/repeatwordsinmsword/xmlmapping%20screenshot3.png 2x"
+            sizes="auto"
+            alt="/posts/repeatwordsinmsword/xmlmapping%20screenshot3.png" height="1000"  width="800" >
+    </a><figcaption class="image-caption">XML Mappings</figcaption>
+    </figure>
+<p>You have now mapped that content control, to Word1</p>
+<ul>
+<li>Now in your header, footer or where ever you want, Right click on Word1, Insert content control, and in this case Word1 as Plain text, and it will appear and be a repeated text from where you’re changing it.</li>
+</ul>
+<p>It might take a few seconds to reflect.</p>
+<p>Hope this helps.</p>
+</div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-04-04</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/msword/">MSWord</a>,&nbsp;<a href="/tags/xmlmappings/">XMLMappings</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/removing-blanks-powerautomate/" class="prev" rel="prev" title="Another quick tip! Removing blank items in a compose"><i class="fas fa-angle-left fa-fw"></i>Another quick tip! Removing blank items in a compose</a>
+            <a href="/posts/bpf-automation/" class="next" rel="next" title="Business Process Flow - How to automate moving through different stages">Business Process Flow - How to automate moving through different stages<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.111.3">Hugo</a>&nbsp;|&nbsp;Theme - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.3.0"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer"></a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Back to Top">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":100},"comment":{}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>
