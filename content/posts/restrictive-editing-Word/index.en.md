@@ -38,7 +38,11 @@ If you find you cannot add a continuous break, but it does a page break, check o
 - On the Layout tab in Word, you’ll find section breaks. You need these to identify the start and end of a protected section.
   (it wont tell you start-end, you’ll have to test by enabling protection, but we’re getting ahead of ourselves here)
 
-> Scenario:  Let’s say you want this to be edited. And this to be read only.
+> **Scenario**
+>
+> Let’s say you want this to be edited.
+>
+> And this to be read only.
 
 You do as follows:
 
@@ -56,22 +60,26 @@ If you leave it open it can be edited
 
 I make it easier for myself by giving the Section break it’s own line, so it’s easier to see where they are.
 
-> Scenario Lets say you want this to be read only.
+> **Scenario**
+>
+> Lets say you want this to be read only.
+>
 > Question read only.
+>
 > And this to be the answer section or adding attachments.
 
 Do the following:
 
-  Insert Continuous Section break (Start)
-  Lets say you want this to be read only.
-  Insert Continuous Section break (End)
+    Insert Continuous Section break (Start)
+    Lets say you want this to be read only.
+    Insert Continuous Section break (End)
 
-  Insert Continuous Section break (Start)
-  Question read only
-  Insert Continuous Section break (End)
-  And this to be the answer section or adding attachments
+    Insert Continuous Section break (Start)
+    Question read only
+    Insert Continuous Section break (End)
+    And this to be the answer section or adding attachments
 
-  Insert Continuous Section break (Start)
+    Insert Continuous Section break (Start)
 
 With me so far?
 
