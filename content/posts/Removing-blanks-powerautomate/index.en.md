@@ -25,7 +25,7 @@ code:
     maxShownLines: 100
 ---
 
-This is a followup post for my earlier blog, Combine data from multiple apply to each into a single output file (Variables and compose)
+This is a followup post for my earlier blog, [Combine data from multiple apply to each into a single output file (Variables and compose)](../Combinemultipledata/)
 
 Cat Sneider helped me tremendously on this one, full credit to her! Find her blog here
 
@@ -48,8 +48,7 @@ If, not empty, your log item, compose Log Generic - with your log entry
 
   ```PowerFx
 
-  If(not(empty([Item here for the log entry])),concat('Log Generic - ',item here if needed,': ',([log item here]),'<br>'),
-  ‘’)
+  If(not(empty([Item here for the log entry])),concat('Log Generic - ',item here if needed,': ',([log item here]),'<br>'),  '')
 
   ```
 
