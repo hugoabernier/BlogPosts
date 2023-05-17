@@ -25,7 +25,7 @@ code:
     maxShownLines: 100
 ---
 
-This is a followup post for my earlier blog, [Combine data from multiple apply to each into a single output file (Variables and compose)](../Combinemultipledata/)
+This is a followup post for my earlier blog, Combine data from multiple apply to each into a single output file (Variables and compose)
 
 Cat Sneider helped me tremendously on this one, full credit to her! Find her blog here
 
