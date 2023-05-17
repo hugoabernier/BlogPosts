@@ -81,7 +81,7 @@ Next step is binding this to something on your form or document.
 
 You have now mapped that content control, to `Word1`
 
-- Now in your header, footer or where ever you want, Right click on `Word1`, Insert content control, and in this case ``Word1` as Plain text, and it will appear and be a repeated text from where you’re changing it.
+- Now in your header, footer or where ever you want, Right click on `Word1`, Insert content control, and in this case `Word1` as Plain text, and it will appear and be a repeated text from where you’re changing it.
 
 It might take a few seconds to reflect.
 
