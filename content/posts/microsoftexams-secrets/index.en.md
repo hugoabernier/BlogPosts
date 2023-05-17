@@ -25,11 +25,8 @@ code:
     maxShownLines: 100
 ---
 
-<!--more-->
+## Check this out if you want to learn how to get Microsoft exam vouchers for free!
 
-{{< admonition type=note title="Note" open=true >}}
-Check this out if you want to learn how to get Microsoft exam vouchers for free!
-{{< /admonition >}}
 
 # I’ll be spilling the beans here, letting out the BIG secret…
 
