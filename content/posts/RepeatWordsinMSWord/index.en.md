@@ -56,7 +56,7 @@ XML Mapping, as the name says, uses an XML file to map the words.
   </DemoXMLNode>
   ```
 
-(I got this code off of someones blog a while ago, if I remember who it was I will post it here, I promise)
+  (I got this code off of someones blog a while ago, if I remember who it was I will post it here, I promise)
 
 - Use the `<>` and `</>` to map your XML names.
 - Save as .XML file.
@@ -64,7 +64,7 @@ XML Mapping, as the name says, uses an XML file to map the words.
 - Select your file.
 - It will show up as the following:
 
-{{< image src="xmlmapping screenshot2.png" caption="Breaks start and End" height="600" width="800">}}
+  {{< image src="xmlmapping screenshot2.png" caption="Breaks start and End" height="600" width="800">}}
 
 I’ve used Word1 and Word2, but you can of course specify your own naming in the XML.
 
@@ -77,7 +77,7 @@ Next step is binding this to something on your form or document.
 - Right click on `Word1`
 - Select Map to selected Content control
 
-{{< image src="xmlmapping screenshot3.png" caption="XML Mappings" height="1000" width="800">}}
+  {{< image src="xmlmapping screenshot3.png" caption="XML Mappings" height="1000" width="800">}}
 
 You have now mapped that content control, to `Word1`
 
