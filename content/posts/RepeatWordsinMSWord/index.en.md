@@ -56,7 +56,7 @@ XML Mapping, as the name says, uses an XML file to map the words.
   </DemoXMLNode>
   ```
 
-  (I got this code off of someones blog a while ago, if I remember who it was I will post it here, I promise)
+  (I got this code off of someone's blog a while ago, if I remember who it was I will post it here, I promise)
 
 - Use the `<>` and `</>` to map your XML names.
 - Save as .XML file.

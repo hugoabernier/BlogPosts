@@ -23,6 +23,9 @@ toc:
 
 code:
     maxShownLines: 100
+
+aliases: 
+- /Blog/index.php/;focus=STRATP_com_cm4all_wdn_Flatpress_42136159&path=?x=entry:entry230511-101930#C_STRATP_com_cm4all_wdn_Flatpress_42136159__-anchor
 ---
 
 <!--more-->

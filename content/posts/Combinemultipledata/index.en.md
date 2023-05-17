@@ -23,6 +23,9 @@ toc:
 
 code:
     maxShownLines: 100
+
+aliases:
+  - /posts/Combinemultipledata
 ---
 
 This was a tricky one to figure out, took me a few hours and failed attempts.
